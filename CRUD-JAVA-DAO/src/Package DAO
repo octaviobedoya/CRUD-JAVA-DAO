@@ -1,0 +1,11 @@
+import java.util.List;
+
+import com.ecodeup.model.Cliente;
+
+public interface IClienteDao {	
+	public boolean registrar(Funcionario funcionario);
+	public List<Funcionario> obtener();
+	public boolean actualizar(Funcionario funcionario);
+	public boolean eliminar(Funcionario funcionario);
+}
+
